@@ -1,4 +1,12 @@
 {
   "version": 2,
-  "name": "danhughes.dev"
+  "name": "danhughes.dev",
+  "alias": "danhughes.dev",
+  "routes": [
+    {
+      "src": "/(.*)",
+      "status": 302,
+      "headers": { "Location": "https://github.com/dan1elhughes" }
+    }
+  ]
 }
