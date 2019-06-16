@@ -2,6 +2,9 @@
   "version": 2,
   "name": "danhughes.dev",
   "alias": "danhughes.dev",
+  "github": {
+    "silent": true
+  },
   "routes": [
     {
       "src": "/",
