@@ -4,7 +4,7 @@
   "alias": "danhughes.dev",
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/",
       "status": 302,
       "headers": { "Location": "https://github.com/dan1elhughes" }
     }
