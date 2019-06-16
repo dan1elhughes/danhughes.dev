@@ -5,8 +5,11 @@
   "routes": [
     {
       "src": "/",
-      "status": 302,
-      "headers": { "Location": "https://github.com/dan1elhughes" }
+      "dest": "https://github.com/dan1elhughes"
+    },
+    {
+      "src": "/healthz",
+      "status": 200
     }
   ]
 }
