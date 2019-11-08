@@ -1,15 +1,17 @@
 {
   "version": 2,
   "name": "danhughes.dev",
-  "alias": "danhughes.dev",
+  "alias": ["danhughes.dev", "www.danhughes.dev"],
   "github": {
     "silent": true
   },
   "routes": [
     {
       "src": "/",
-      "status": 302,
-      "headers": { "Location": "https://github.com/dan1elhughes" }
+      "status": 308,
+      "headers": {
+        "Location": "https://github.com/dan1elhughes"
+      }
     },
     {
       "src": "/healthz",
