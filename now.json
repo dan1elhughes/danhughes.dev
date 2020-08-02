@@ -18,6 +18,5 @@
       "source": "/(.*)",
       "destination": "https://github.com/dan1elhughes/$1"
     }
-  ],
-  "routes": [{ "src": "/healthz", "status": 200 }]
+  ]
 }
