@@ -5,17 +5,19 @@
   "github": {
     "silent": true
   },
-  "routes": [
+  "redirects": [
     {
-      "src": "/",
-      "status": 308,
-      "headers": {
-        "Location": "https://github.com/dan1elhughes"
-      }
+      "source": "/",
+      "destination": "https://github.com/dan1elhughes"
     },
     {
-      "src": "/healthz",
-      "status": 200
+      "source": "/keys",
+      "destination": "https://github.com/dan1elhughes.keys"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://github.com/dan1elhughes/$1"
     }
-  ]
+  ],
+  "routes": [{ "src": "/healthz", "status": 200 }]
 }
