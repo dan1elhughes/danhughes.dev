@@ -5,18 +5,19 @@
   "github": {
     "silent": true
   },
-  "redirects": [
+  "routes": [
     {
-      "source": "/",
-      "destination": "https://github.com/dan1elhughes"
+      "src": "/",
+      "dest": "https://github.com/dan1elhughes"
+    },
+    { "src": "/healthz" },
+    {
+      "src": "/keys",
+      "dest": "https://github.com/dan1elhughes.keys"
     },
     {
-      "source": "/keys",
-      "destination": "https://github.com/dan1elhughes.keys"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "https://github.com/dan1elhughes/$1"
+      "src": "/(.*)",
+      "dest": "https://github.com/dan1elhughes/$1"
     }
   ]
 }
