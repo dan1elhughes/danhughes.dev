@@ -21,6 +21,13 @@
       "headers": { "Location": "https://github.com/dan1elhughes.keys" }
     },
     {
+      "src": "/on-holiday",
+      "status": 302,
+      "headers": {
+        "Location": "https://www.notion.so/monzo/2562db6103ff4ac3839ac9e98cef0d64"
+      }
+    },
+    {
       "src": "/(.*)",
       "status": 302,
       "headers": { "Location": "https://github.com/dan1elhughes/$1" }
