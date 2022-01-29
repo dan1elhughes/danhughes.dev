@@ -11,6 +11,16 @@
       "status": 200
     },
     {
+      "src": "/.well-known/carddav",
+      "status": 301,
+      "headers": { "Location": "https://carddav.fastmail.com" }
+    },
+    {
+      "src": "/.well-known/caldav",
+      "status": 301,
+      "headers": { "Location": "https://caldav.fastmail.com" }
+    },
+    {
       "src": "/",
       "status": 302,
       "headers": { "Location": "https://github.com/dan1elhughes" }
