@@ -31,6 +31,11 @@
       "headers": { "Location": "https://github.com/dan1elhughes.keys" }
     },
     {
+      "src": "/monzo-savings-monitor",
+      "status": 302,
+      "headers": { "Location": "http://eepurl.com/h9k2I1" }
+    },
+    {
       "src": "/(.*)",
       "status": 302,
       "headers": { "Location": "https://github.com/dan1elhughes/$1" }
