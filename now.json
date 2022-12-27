@@ -21,9 +21,11 @@
       "headers": { "Location": "https://github.com/dan1elhughes.keys" }
     },
     {
-      "src": "/monzo-savings-monitor",
+      "src": "/.well-known/webfinger",
       "status": 302,
-      "headers": { "Location": "http://eepurl.com/h9k2I1" }
+      "headers": {
+        "Location": "https://hachyderm.io/.well-known/webfinger?resource=acct:dan1elhughes@hachyderm.io"
+      }
     },
     {
       "src": "/(.*)",
