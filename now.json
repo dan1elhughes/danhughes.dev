@@ -24,7 +24,7 @@
       "src": "/.well-known/webfinger",
       "status": 302,
       "headers": {
-        "Location": "https://hachyderm.io/.well-known/webfinger?resource=acct:dan1elhughes@hachyderm.io"
+        "Location": "https://social.lol/.well-known/webfinger?resource=acct:dfh@social.lol"
       }
     },
     {
